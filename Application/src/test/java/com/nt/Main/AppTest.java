@@ -14,4 +14,9 @@ public class AppTest {
     public void shouldAnswerWithTrue() {
        assertEquals("Hi", "Hi");
     }
+    
+    @Test
+    public void shouldAnswerWithfalse() {
+       assertEquals("kk", "kk");
+    }
 }
